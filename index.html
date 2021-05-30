@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Sam's Art Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="mylogo">
+            <img src="images/sam_logo.png" width="50" height="50" alt="sam's logo">
+        </div>
+
+        <button class="nav-btn" aria-label="nav-button">
+            <span class="btn"></span>
+        </button>
+
+        <nav class="mynav">
+            <ul class="mynav_ls">
+                <li class="mynav_item"> <a href="#home" class="mynav_link">Home</a></li>
+                <li class="mynav_item"> <a href="#skills" class="mynav_link">Creative Styles</a></li>
+                <li class="mynav_item"> <a href="#about" class="mynav_link">About Me</a></li>
+                <li class="mynav_item"> <a href="#projects" class="mynav_link">Art Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Top Introduction Section-->
+    <section class="topintro" id="home">
+        <div class="container">
+
+            <div class="card">
+                <div class="card-top">
+                    <img src="./images/back.jpg" alt="Background filled with cyan colored drops" />
+                </div>
+                <div class="profile-container">
+                    <div class="profile-img">
+                        <img src="./images/artist.jpg" alt="User Image" class="user-img" />
+                    </div>
+                    <div class="user-details">
+                        <h4 class="user-name gray--bold--text">Sam Jones</h4>
+                        <h5 class="age light--text">26</h5>
+                    </div>
+                    <div class="country">
+                        <p class="light--text">Self-Taught Artist: Nairobi, Kenya</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--My Creative Style Section-->
+    <section class="myskills" id="skills">
+        <div class="skills-list">
+            <header>
+                <h3>I create....</h3>
+            </header>
+            <ul class="skill-list">
+                <li class="actv"><a href="#">
+                        <span class="title">Decorative Art</span>
+                        <span class="info">Creating unique artistic pieces t decorate your spaces.</span>
+
+                    </a></li>
+                <li><a href="#">
+                        <span class="best-info">
+                            Favorite
+                        </span>
+                        <span class="title domain-title">Fine Art</span>
+                        <span class="info"> Creating art using paintings to present beauty as it is.</span>
+                        </span>
+
+                    </a></li>
+                <li><a href="#">
+                        <span class="title domain-title">Visual Art</span>
+                        <span class="info"> Capitalizing on the power of the eye and mind,
+                            and the world.</span>
+                        </span>
+
+                    </a></li>
+            </ul>
+            <div class="action">
+                <a href="#projects">View more</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!--My artist bio-->
+    <section class="bio" id="about">
+
+        <div class="biocard">
+            <img src="./images/artist.jpg" class="biocard__image" alt="brown couch" />
+            <div class="biocard__content">
+                <p class="biocard__date">A little about me
+                <p>
+                    <span class="biocard__title">I am a self-taught Kenyan painter and artist with over 5 years
+                        of experience in creative work. My paintings are 
+                        for both personal and commercial decorations. Below, you will find
+                        some of my best works, and projects that I really enjoyed working on.<span>
+            </div>
+        </div>
+    </section>
+
+    <!--My completed projects-->
+    <section class="myprojects" id="projects">
+        <h2 class="sectitle">Some Art Projects I've Completed</h2>
+        <p class="secsubtitle">Check out some of my work</p>
+        <div class="mywork">
+            <!--Project 1-->
+            <a href="portfolio-page.html" class="work_piece">
+                <img src="images/img1.jpg" alt="My first project" class="workpiece_img">
+            </a>
+
+            <!--Project 2-->
+            <a href="portfolioII-page.html" class="work_piece">
+                <img src="images/img2.jpg" alt="My second project" class="workpiece_img">
+            </a>
+
+            <!--Project 3-->
+            <a href="page3.html" class="work_piece">
+                <img src="images/img3.jpg" alt="My third project" class="workpiece_img">
+            </a>
+
+            <!--Project 4-->
+            <a href="page4.html" class="work_piece">
+                <img src="images/img4.jpg" alt="My fourth project" class="workpiece_img">
+            </a>
+
+            <!--Project 5-->
+            <a href="page5.html" class="work_piece">
+                <img src="images/img5.jpg" alt="My fifth project" class="workpiece_img">
+            </a>
+
+            <!--Project 6-->
+            <a href="page6.html" class="work_piece">
+                <img src="images/img6.jpg" alt="My sixth project" class="workpiece_img">
+            </a>
+
+            <a href="page7.html" class="work_piece">
+                <img src="images/img7.jpg" alt="My sixth project" class="workpiece_img">
+            </a>
+        </div>
+    </section>
+
+    <!--page footer-->
+    <footer class="footer">
+        <!--insert your own here-->
+        <a href="mailto:fort.smg@gmail.com" class="footer_link">Email</a>
+
+        <ul class="social_links">
+            <li class="socialitem">
+                <a class="socialitemlink" href="https://twitter.com"><i class="fab fa-twitter"></i> Twitter</a>
+            </li>
+            <li class="socialitem">
+                <a class="socialitemlink" href="https://facebook.com"><i class="fab fa-facebook-square"></i>
+                    Facebook</a>
+            </li>
+            <li class="socialitem">
+                <a class="socialitemlink:" href="https://instagram.com"><i class="fab fa-instagram-square"></i>
+                    Instagram</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
